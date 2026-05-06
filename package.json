@@ -1,0 +1,14 @@
+{
+  "name": "music-genre-checker",
+  "version": "1.0.0",
+  "description": "Check music genres using Spotify API and Tavily search",
+  "main": "genre-checker.js",
+  "scripts": {
+    "check-genres": "node genre-checker.js",
+    "sort-moods": "node mood-sorter.js"
+  },
+"dependencies": {
+  "spotify-web-api-node": "^5.0.2",
+  "dotenv": "^16.3.1"
+}
+}
